@@ -29,13 +29,32 @@ namespace MVCTest.Controllers
         {
             return "Cliente: " + id +";Nombre: "+name;
         }
-        public IActionResult ConsultaCliente()
+        //[HttpGet]
+        public IActionResult ConsultaCliente(Cliente ShowCliente)
     {
-        var MiCliente = new Cliente();
-        MiCliente.nombre = "Juan";
-        MiCliente.edad = 24;
-        return View(MiCliente);
+        
+        //Redireccion();
+        //return View("Hola");
+        //return RedirectToAction("Redireccion");
+        return View(ShowCliente);
     }
+    public IActionResult RedireccionHome()
+    {
+        return RedirectToAction("Index","Home");
+    }
+    public IActionResult SubidaExitosa()
+    {
+        return View();
+    }
+        [HttpPost]
+       public IActionResult AltaCliente(Cliente nuevoCliente){
+            
+           return RedirectToAction("SubidaExitosa");
+        }
+        public IActionResult getAltaCliente(){
+            
+           return View("AltaCliente");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

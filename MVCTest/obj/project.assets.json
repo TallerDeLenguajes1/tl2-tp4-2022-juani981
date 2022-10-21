@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno\\Documents\\MVC\\tl2-tp4-2022-juani981\\MVCTest\\MVCTest.csproj",
+      "projectUniqueName": "C:\\Users\\Alumno\\Documents\\tl2-tp4-2022-juani981\\MVCTest\\MVCTest.csproj",
       "projectName": "MVCTest",
-      "projectPath": "C:\\Users\\Alumno\\Documents\\MVC\\tl2-tp4-2022-juani981\\MVCTest\\MVCTest.csproj",
+      "projectPath": "C:\\Users\\Alumno\\Documents\\tl2-tp4-2022-juani981\\MVCTest\\MVCTest.csproj",
       "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno\\Documents\\MVC\\tl2-tp4-2022-juani981\\MVCTest\\obj\\",
+      "outputPath": "C:\\Users\\Alumno\\Documents\\tl2-tp4-2022-juani981\\MVCTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

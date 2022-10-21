@@ -13,15 +13,16 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public string Index()
+    public IActionResult Index()
     {
-        return "Hola Mundo!";
+        return View();
     }
 
     public IActionResult Privacy()
     {
         return View();
     }
+    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
